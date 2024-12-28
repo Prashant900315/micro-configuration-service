@@ -6,3 +6,6 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.application.name}-${server.port}
     #instance-id: ${spring.application.name}-${random.int}
+emp:
+  service:
+       url: "http://localhost:8092/employee-service/test/getEmplist"
