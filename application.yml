@@ -8,4 +8,4 @@ eureka:
     #instance-id: ${spring.application.name}-${random.int}
 emp:
   service:
-       url: "localhost:8080/employee-service/employee/getEmplist"
+       url: "http://localhost:8080/employee-service/employee/getEmplist"
